@@ -1,0 +1,129 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+div.main-container {
+    background-color: hsl(213, 19%, 18%);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    padding: 30px 30px 20px;
+    margin: auto;
+    vertical-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+p {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
+
+button#submit {
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+
+}
+
+button#submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    font-weight: bold;
+}
+
+label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(61, 66, 83, 0.308);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    color:#fff;
+    margin: 0 2px 10px;
+}
+
+label:hover {
+    background-color: hsl(25, 97%, 53%);
+    font-weight: bold;
+}
+
+div#star {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    background-color: rgba(61, 66, 83, 0.308);
+    border-radius: 100%;
+}
+
+div.ratings {
+    display: inline-flex;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    justify-content: space-evenly;
+}
+
+input[type="radio"]:checked + label {
+	color: #ffffff;
+	font-weight: bold;
+    background: hsl(217, 12%, 63%);
+}
+
+svg#thankYouIMG {
+    margin: 10px auto;
+    display: block;
+}
+
+div.user-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    margin: 15px auto;
+    background-color: rgba(61, 66, 83, 0.308);
+    border-radius: 30px;
+}
+
+h1#thankyou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+p#thankyou {
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    text-align: center;
+}
+
+p#youselected {
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
